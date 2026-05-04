@@ -81,7 +81,6 @@ void print(node* head) {
         if (temp->next != NULL) printf(" ");
         temp = temp->next;
     }
-    printf("\n");
 }
 
 int main() {
