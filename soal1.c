@@ -1,12 +1,3 @@
-/** EL2008 Praktikum Pemecahan Masalah dengan Pemrograman 2024/2025
- *   Modul               : 4 - Dynamic Structures
- *   Hari dan Tanggal    : Senin,4 Mei 2026
- *   Nama (NIM)          : Azka Muhammad Aqwam(13224061)
- *   Nama File           : soal1.c
- *   Deskripsi           : Menggunakan dynamic structures yang betujuan untuk mengetahui posisinya dan list nya juga
- * 
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -78,7 +69,6 @@ void find(node* head, int nilai) {
     printf("NOT FOUND\n");
 }
 
-// Fungsi untuk mencetak seluruh list
 void print(node* head) {
     if (head == NULL) {
         printf("LIST EMPTY\n");
